@@ -30,7 +30,7 @@ class AppFeatureTest extends TestCase
             'age' => 18,
             'gender' => true,
             'photo' => "",
-            'comment' => "Comentario"
+            'comment' => "Comentari"
             ];
 
         $this->call('POST', 'user/update', $data)
